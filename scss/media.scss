@@ -727,6 +727,7 @@ text-align: left;
     }
     .text-content{
         max-width: 360px;
+        min-height: 400px;
     }
     .main-text{
         margin-right: 0;
@@ -784,6 +785,11 @@ font-weight: 400;
 }
 @media screen and (max-width:380px){
 
+    .wrapper_main-content{
+        min-height: 500px;
+    }
+
+
 // ----------------
     .form-content_inputs .inp, button {
         max-width: 320px;
@@ -802,7 +808,7 @@ font-weight: 400;
     
    
     .main-content{
-        max-height: 380px;
+        max-height: 580px;
     }
     .advantage__text {
         margin-bottom: 20px;
