@@ -1,0 +1,327 @@
+
+header{
+    max-width: 1200px;
+    height: 75px;
+    margin: 0 auto;
+    display: flex;
+    margin-top: 23px;
+    align-items: center;
+
+}
+
+.address_header{
+    display: none;
+    position: absolute;
+    top: 75px;
+    right: 0;
+    left: 0;
+    p{
+        text-align: center;
+
+    color: #7a7a7a;
+
+    font-size: 14px;
+    font-weight: 400;
+    }
+}
+
+.nav-bar_content{
+    display: none;
+}
+.logo-main_sm{
+    display: none;
+}
+.tel-heder_phone{
+    display: none;
+}
+.l{
+    display: none;
+}
+.wrapper-page{
+    display: none;
+}
+.geo-nav{
+    display: none;
+}
+.con-right{
+    display: block;
+}
+.menu-btn{
+    display: none;
+    margin-left: 30px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.nav-bar_links{
+    padding: 10px;
+    margin-top: 10px;
+    border: 0.5px solid #333333;
+}
+.bar_links_item{
+    margin-top: 10px;
+    a{
+        text-decoration: none;
+        text-decoration: none;
+    color: #333;
+    font-weight: 700;
+    }
+}
+.nav-link span{
+    padding-left: 10px;
+    font-size: 15px;
+}
+.navbar-nav{
+    display: flex;
+}
+.logo-site{
+    margin-right: auto;
+}
+.menu-btn{
+    display: none;
+}
+a.tel-heder{
+    text-decoration: none;
+color: #36ab32;
+font-size: 24px;
+font-weight: bold;
+}
+.tell-nav{
+    margin-left: 38px;
+    box-sizing: border-box;
+    width: 231px;
+    height: 30px;
+border-left: 5px solid #cdeacc;
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.btn_back{
+    display: none;
+}
+.up_content_menu{
+    display: none;
+}
+.nav-bar_content{
+    position: absolute;
+}
+a.nav-link{
+    text-decoration: none;
+color: #333333;
+font-weight: bold;
+}
+.soch_of_buttons{
+    display: none;
+}
+.nav-link_more{
+    position: relative;
+}
+.nav-bar_links{
+    position: absolute;
+    width: 290px;
+    text-align: center;
+}
+.nav-bar_content{
+    position: absolute;
+}
+.nav-item{
+font-size: 18px;
+font-weight: bold;
+margin-left: 60px;
+cursor: pointer;
+}
+.wrapper-page{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 2;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+@media screen and (max-width:1025px){
+    .nav-bar_content{
+        position: relative;
+    }
+    .nav-bar_links{
+        margin: 0;
+        padding: 0;
+    }
+    .wr{
+        display: block;
+    }
+    .menu-btn{
+        margin-left: 20px;
+        display: flex;
+        align-items: center;
+    }
+    .geo-nav{
+        display: flex;
+        align-items: center;
+        margin-left: auto;
+    }
+    header {
+        padding: 0 15px;
+        margin: 0 auto;
+        position: relative;
+    }
+    .l{
+        display: block;
+        margin: 0 auto;
+    }
+    .con-right{
+        z-index: 3;
+        position: relative; 
+        // display: none;
+        position: fixed;
+        right: 0;
+        bottom: 0;
+        height: 100%;
+        background-color: #ffffff;
+        width: 350px;
+        .navbar-nav{
+            display: flex;
+            flex-direction: column;
+        }
+    }
+    .btn_back{
+        height: 24px;
+        width: 24px;
+        margin-top: 20px;
+        margin-left: 15px;
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+        // margin-bottom: 15px;
+    }
+    .bar_links_item{
+        font-size: 18px;
+        font-weight: bold;
+        margin-left: 15px;
+        margin-top: 15px;
+        color: #333333;
+    }
+    .nav-bar_links{
+        position: relative;
+        width: auto;
+        text-align: left;
+        border: none;
+        display: flex;
+        flex-direction: column;
+        a{
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: bold;
+            color: #333333;
+        }
+    }
+    .text_menu{
+        color: #333333;
+        font-family: 'Rubik', sans-serif;
+        font-size: 20px;
+        font-weight: 500;
+    }
+    .logo-site{
+        margin: 0;
+    }
+    .tell-nav{
+        margin-left: 30px;
+    }
+    .up_content_menu{
+        display: flex;
+        justify-content: space-between;
+        padding: 0 15px;
+        padding-top: 30px;
+    }
+    .navbar-nav{
+        margin-top: 60px;
+        margin-left: 15px;
+    }
+
+    .soch_of_buttons{
+        // width: 100%;
+        display: flex;
+        margin-top: 30px;
+        margin-left: 15px;
+    }
+    .soch_of_buttons a{
+        // height: 100%;
+        // width: 100%;
+        margin-right: 20px;
+    }
+    .nav-item{
+        margin-left: 0;
+        margin-bottom: 15px;
+    }
+    .nav-link_more{
+        color: #333333;
+        cursor: pointer;
+    }
+    .close_btn{
+        color: #f4d00e;
+        font-size: 40px;
+        display: flex;
+        align-items: flex-start;
+        cursor: pointer;
+        img{
+            width: 20px;
+            height: 20px;
+        }
+    }
+    .con-right{
+        display: none;
+    }
+    .wrapper-page{
+        display: none;
+    }
+}
+@media screen and (max-width:650px){
+    header{
+        margin-top: 0px;
+    }
+    .nav-bar_content{
+        position: relative;
+    }
+    .tel-heder_phone{
+        display: flex;
+        align-items: center;
+    }
+    .logo-main{
+        display: none;
+    }
+    .tell-nav{
+        width: 23px;
+        height: 23px;
+    }
+    .tel-heder{
+        display: none;
+    }
+    .logo-main_sm{
+        display: block;
+    }
+    .tell-nav{
+        border: none;
+        margin-left: 30px;
+    }
+    .geo-nav{
+        display: flex;
+        align-items: center;
+        margin-left: auto;
+    }
+    .soch_of_buttons {
+        display: flex;
+    }
+
+}
+
+@media screen and (max-width:375px){
+    .con-right{
+        width: 100%;
+        left: 0;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        height: 100%;
+    }
+}
